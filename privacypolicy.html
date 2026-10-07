@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — PMG Athena Extension</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-soft: #eff6ff;
+      --border: #e5e7eb;
+      --radius: 12px;
+      --shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 999px;
+      margin-bottom: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin: 0 0 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px 36px;
+      box-shadow: var(--shadow);
+    }
+
+    section {
+      padding: 24px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:first-of-type { padding-top: 0; }
+    section:last-of-type { border-bottom: none; padding-bottom: 0; }
+
+    h2 {
+      font-size: 19px;
+      font-weight: 650;
+      margin: 0 0 12px;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    p, ul {
+      margin: 0 0 12px;
+      color: var(--text);
+    }
+
+    p:last-child, ul:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-size: 0.9em;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #374151;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .callout {
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      padding: 14px 18px;
+      border-radius: 8px;
+      font-size: 15px;
+      color: #1e3a8a;
+      margin: 16px 0 0;
+    }
+
+    .callout strong { color: var(--accent); }
+
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      .wrap { padding: 32px 16px 64px; }
+      .card { padding: 24px 20px; }
+      h1 { font-size: 26px; }
+      h2 { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">Microsoft Edge Extension</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">PMG Athena Extension &middot; Last updated: October 7, 2026</p>
+    </header>
+
+    <main class="card">
+      <section>
+        <h2><span class="num">1</span> Information We Access</h2>
+        <p>
+          This extension accesses page content on <code>*.athenahealth.com</code> solely to
+          identify specific elements (such as appointment rows) based on their text content
+          and apply user-configured CSS styles.
+        </p>
+        <p>
+          It does <strong>not</strong> collect, store, or transmit any personal information,
+          patient data, protected health information (PHI), or browsing history.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">2</span> How We Use Information</h2>
+        <p>
+          The accessed page content is processed <strong>locally in your browser</strong> to
+          apply visual modifications. No page content, text, or metadata is transmitted to
+          our servers or any third party.
+        </p>
+        <p>
+          Any user preferences (such as style rules) are stored locally using the browser's
+          built-in storage API and never leave your device.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">3</span> Data Sharing</h2>
+        <p>
+          We do not sell, trade, rent, or otherwise transfer any user data to outside parties.
+          The extension operates entirely on your device.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">4</span> Limited Use</h2>
+        <div class="callout">
+          The use of information received from Google APIs will adhere to the
+          <strong>Chrome Web Store User Data Policy</strong>, including the Limited Use requirements.
+        </div>
+      </section>
+
+      <section>
+        <h2><span class="num">5</span> Changes to This Policy</h2>
+        <p>
+          We may update this privacy policy from time to time. Any changes will be reflected
+          on this page with an updated "Last updated" date. Continued use of the extension
+          after changes constitutes acceptance of the updated policy.
+        </p>
+      </section>
+
+      <section>
+        <h2><span class="num">6</span> Contact</h2>
+        <p>
+          For questions about this privacy policy, please contact:
+        </p>
+        <ul>
+          <li>Email: juarez.v.lpn@gmail.com</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2026 Victor Juarez. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
